@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Andrew Smith" />
+    <meta name="description" content="Andrew Smith's portfolio website." />
+    <title>Andrew Smith</title>
+  </head>
+  <body>
+    <header>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>Andrew Smith</h1>
+        <p>Software Engineer</p>
+        <p>
+          I build clean, reliable applications with strong fundamentals and
+          thoughtful UX.
+        </p>
+        <div>
+          <a href="">Resume</a>
+          <a href="">GitHub</a>
+          <a href="">LinkedIn</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I’m a software engineer working in a Java/Spring environment. I enjoy
+          building clean backend services and user-friendly interfaces, and I’m
+          focused on strengthening fundamentals while shipping polished
+          projects.
+        </p>
+      </section>
+
+      <section id="projects" aria-labelledby="projects-title">
+        <h2 id="projects-title">Projects</h2>
+        <article>
+          <h3>LORE - WorldBuilding Assistant</h3>
+          <p>
+            Helps writers track characters, locations, and events across a story
+            world.
+          </p>
+          <ul>
+            <li>
+              Firestore-backed CRUD with client-side caching to reduce
+              re-fetching.
+            </li>
+            <li>
+              Logs named-range narrative mentions in Google Docs for navigation.
+            </li>
+            <li>
+              Designed catalogs and entity profiles to maintain story
+              consistency.
+            </li>
+          </ul>
+          <p>
+            <strong>Tech:</strong> JavaScript, Google Apps Script, Firestore,
+            HTML/CSS
+          </p>
+          <p><em>Links and demo coming soon.</em></p>
+          <!-- <p><a href="#">GitHub</a> · <a href="#">Live/Demo</a></p> -->
+        </article>
+
+        <article>
+          <h3>Nutrinotes</h3>
+          <p>
+            A full-stack Flask application for managing and analyzing nutrition
+            data through a PostgreSQL-backed database.
+          </p>
+          <ul>
+            <li>
+              Built a relational database system in PostgreSQL and connected it
+              to a Flask web application using SQLAlchemy ORM.
+            </li>
+            <li>
+              Designed a normalized schema to support data integrity and more
+              complex query workflows.
+            </li>
+            <li>
+              Implemented CRUD functionality, data visualization, and error
+              handling to create a more usable and reliable interface.
+            </li>
+          </ul>
+          <p><strong>Tech:</strong> Flask, SQLAlchemy, Python, PostgreSQL</p>
+          <p><em>Links and demo coming soon.</em></p>
+          <!-- <p><a href="#">GitHub</a> · <a href="#">Live Demo</a></p> -->
+        </article>
+
+        <article>
+          <h3>POS System</h3>
+          <p>
+            A full-stack application that simulates procurement and
+            point-of-sale workflows with support for user roles, transactions,
+            and inventory logic.
+          </p>
+          <ul>
+            <li>
+              Built the application using React, Node.js, and PostgreSQL to
+              model enterprise-style workflows and relational data.
+            </li>
+            <li>
+              Integrated external APIs including OAuth, Google Translate, and
+              OpenWeather to extend functionality.
+            </li>
+            <li>
+              Worked in an Agile team environment using sprint planning, daily
+              standups, and Jira-based task tracking.
+            </li>
+          </ul>
+          <p><strong>Tech:</strong> Node.js, React, PostgreSQL</p>
+          <!-- <p><a href="#">GitHub</a> · <a href="#">Live Demo</a></p> -->
+          <p><em>Links and demo coming soon.</em></p>
+        </article>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <address>
+          <p>Email: <a href="">you@email.com</a></p>
+          <p>
+            <a href="">GitHub</a>
+            <a href="">LinkedIn</a>
+          </p>
+        </address>
+      </section>
+    </main>
+
+    <footer>&copy; Andrew Smith</footer>
+  </body>
+</html>
