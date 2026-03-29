@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #0f172a; /* dark background */
+  color: #e5e7eb;
+}
+
+a {
+  color: #22c55e; /* green accent */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+/* HEADER */
+header {
+  background-color: #020617;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #1e293b;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+nav a {
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #45ff89;
+  text-decoration: none;
+}
+/* HERO */
+
+#home {
+  text-align: center;
+}
+
+#home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#home p:first-of-type {
+  font-size: 1.2rem;
+  color: #94a3b8;
+}
+
+#home div {
+  margin-top: 1.5rem;
+}
+
+#home a {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #22c55e;
+  border-radius: 6px;
+}
+
+#home a:hover {
+  border: 1px solid #45ff89;
+  color: #45ff89;
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #f8fafc;
+}
+
+/* PROJECT CARDS */
+article {
+  background-color: #020617;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+article:hover {
+  transform: translateY(-4px);
+  border-color: #22c55e;
+  box-shadow: 0 8px 34px rgba(0, 0, 0, 0.25);
+}
+
+article h3 {
+  margin-bottom: 0.5rem;
+}
+
+article ul {
+  margin: 1rem 0;
+  padding-left: 1.25rem;
+}
+
+article p {
+  margin: 0 0 0.5rem 0;
+}
+
+/* CONTACT */
+
+#contact a {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #1e293b;
+  color: #94a3b8;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #home h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 395px) {
+  #home div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex-grow: 1;
+  }
+}
